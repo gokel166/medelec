@@ -1,0 +1,23 @@
+{
+  "name": "elecapp",
+  "version": "1.0.0",
+  "description": "Tested electron app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/gokel166/medelec.git"
+  },
+  "keywords": [
+    "Electron",
+    "media",
+    "app"
+  ],
+  "author": "George Okello",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  }
+}
