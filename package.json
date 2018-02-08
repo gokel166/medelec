@@ -42,6 +42,8 @@
     "webpack-hot-middleware": "^2.21.0"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
