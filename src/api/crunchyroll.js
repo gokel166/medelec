@@ -10,7 +10,7 @@ const baseUrl = 'http://www.cruchroll.com/';
 const Crunchyroll = {
   async getAllSeries() {
     //load catalog
-    const { data } = await axios.get(`${baseUrl}/videos/anime`);
+    const {data} = await axios.get(`${baseUrl}/videos/anime`);
     // create cheerio cursor
     const $ = cheerio.load(data);
 
@@ -29,6 +29,7 @@ const Crunchyroll = {
   },
   search(query) {
     //
+    console.log(query)
   },
 };
 
