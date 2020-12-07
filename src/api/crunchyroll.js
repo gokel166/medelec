@@ -1,4 +1,4 @@
-import index from 'axios';
+//import index from 'axios';
 
 const axios = require('axios');
 const cheerio = require('cheerio');

@@ -1,2 +1,2 @@
-console.log("Here is the stated purpose")
+console.log("Here is the stated purpose");
 
