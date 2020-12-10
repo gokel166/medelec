@@ -16,3 +16,6 @@
 npm-debug.log
 testem.log
 /typings
+
+*/.venv
+*__pycache__
