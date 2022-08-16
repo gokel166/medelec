@@ -1,0 +1,5 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    command: --default-authentication-plugin=postgres_native_password
