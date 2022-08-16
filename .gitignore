@@ -4,9 +4,15 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.vscode
+**.vscode
+
+#IDEA Intellij
+**/.idea
 
 # dependencies
 */node_modules
+**node_modules
 
 # misc
 /.sass-cache
@@ -17,6 +23,9 @@ npm-debug.log
 testem.log
 /typings
 
-*/.venv
-*__pycache__
+#env variables
 *.env
+
+# bin and obj folder
+# **obj
+# **bin
